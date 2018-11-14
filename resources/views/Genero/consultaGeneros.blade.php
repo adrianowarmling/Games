@@ -1,7 +1,12 @@
 @extends('mainAdriano')
 
 @section('content')
-
+<div class="card text-center">
+ <div class="card-header">
+ <h3 class="card-title">Generos</h3>
+</div>
+</div>
+<div class="card-header">
 <table class="table table-striped">
     <thead class="thead-dark">
         <tr class='row'>
@@ -13,5 +18,11 @@
     <tbody id="tabelaGeneros">
     </tbody>
 </table>
+</div>
+<div class="card text-center">
+<div class="card-body">
+<h5>© All right Reversed. Adriano Warmling</h5>
+</div>
+</div>
 
 @endsection

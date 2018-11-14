@@ -2,6 +2,12 @@
 
 @section('content')
 
+<div class="card text-center">
+ <div class="card-header">
+ <h3 class="card-title">Alterar Game</h3>
+</div>
+</div>
+<div class="card-header">
 <form action="/api/games" method="PUT">
         <div class="form-group">
             <label for="id">ID:</label>
@@ -57,5 +63,11 @@
         <button type="submit" id="altera-games" class="btn btn-success totalwidth">Submit</button>
         </div>
     </form>
+</div>
+<div class="card text-center">
+<div class="card-body">
+<h5>© All right Reversed. Adriano Warmling</h5>
+</div>
+</div>
 
 @endsection

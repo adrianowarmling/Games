@@ -1,6 +1,12 @@
 @extends('mainAdriano')
 
 @section('content')
+<div class="card text-center">
+ <div class="card-header">
+ <h3 class="card-title">Cadastrar um Game</h3>
+</div>
+</div>
+<div class="card-header">
 
 <form action="/api/games" method="POST">
         <div class="form-group">
@@ -57,5 +63,11 @@
         <button type="submit" id="cadastrar-games" class="btn btn-success totalwidth">Submit</button>
         </div>
     </form>
-
+    </div>
+    </div>
+<div class="card text-center">
+<div class="card-body">
+<h5>© All right Reversed. Adriano Warmling</h5>
+</div>
+</div>
 @endsection
